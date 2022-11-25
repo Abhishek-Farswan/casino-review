@@ -51,11 +51,11 @@ const Cta = ({
         <div
           className={innerClasses}
         >
-          <div className="cta-slogan">
+          {/* <div className="cta-slogan">
             <h3 className="m-0">
               For previewing layouts and visual?
               </h3>
-          </div>
+          </div> */}
           <div className="cta-action">
             <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
               <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">

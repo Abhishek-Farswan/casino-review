@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6,
 	@include font-family(heading);
 	@include font-weight(heading);
 	clear: both;
-	color: color(heading);
+	// color: color(heading);
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 }
@@ -101,16 +101,25 @@ h2,
 .h2 {
 	margin-top: $spacing--h2-t;
 	margin-bottom: $spacing--h2-b;
+	color: darkslateblue;
 }
 
 h3,
 .h3 {
 	margin-top: $spacing--h3-t;
 	margin-bottom: $spacing--h3-b;
+	color: maroon;
 }
 
-h4, h5, h6,
-.h4, .h5, .h6 {
+h4,
+.h4 {
+	margin-top: $spacing--hx-t;
+	margin-bottom: $spacing--hx-b;
+	color: maroon;
+}
+
+h5, h6,
+.h5, .h6 {
 	margin-top: $spacing--hx-t;
 	margin-bottom: $spacing--hx-b;
 }
@@ -118,6 +127,7 @@ h4, h5, h6,
 p {
 	margin-top: 0;
 	margin-bottom: $spacing--shared-v;
+	color :	black;
 }
 
 dfn, cite, em, i {
@@ -312,3 +322,4 @@ strong {
 		@include font-size(bquote-desktop);
 	}
 }
+

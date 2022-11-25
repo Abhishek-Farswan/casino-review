@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Explore Fabulous Casinos',
+    paragraph: 'Discover through our collection of various awesome Casinos ranging from Teen Patti, Rouletter to Live Casinos, especially handpicked and collected in our site just for you all to experience the rich and diversities of Casinos in India. All verified and trusted by us.'
   };
 
   return (
@@ -66,14 +66,15 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                {/* <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Lightning fast workflow
-                  </div>
+                  </div> */}
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Teen Patti
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Teenpatti is an Indian casino game also known as the Indian Flush played with a standard deck of cards.
+                The main objective of this game is to create the highest-ranking combination among all the players with only three cards dealt.
                   </p>
               </div>
               <div className={
@@ -83,8 +84,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={require('./../../assets/images/features-split-image-01.jpg')}
+                  alt="Teen Patti"
                   width={528}
                   height={396} />
               </div>
@@ -92,14 +93,11 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                 Roulette
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Roulette is a gambling game in which a ball is dropped onto a wheel with numbered holes in it while the wheel is spinning round. The players bet on which hole the ball will be in when the wheel stops spinning.
                   </p>
               </div>
               <div className={
@@ -109,8 +107,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
+                  src={require('./../../assets/images/features-split-image-02.jpg')}
+                  alt="Roulette"
                   width={528}
                   height={396} />
               </div>
@@ -118,14 +116,12 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                Black Jack
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Blackjack is a casino banking game. The most widely played casino banking game in the world, it uses decks of 52 cards and descends from a global family of casino banking games known as Twenty-One. 
+                Blackjack players do not compete against each other. The game is a comparing card game where each player competes against the dealer.
                   </p>
               </div>
               <div className={
@@ -135,8 +131,32 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
+                  src={require('./../../assets/images/features-split-image-03.jpg')}
+                  alt="Black Jack"
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
+                <h3 className="mt-0 mb-12">
+                  Live Casino
+                  </h3>
+                <p className="m-0">
+                Enjoy Live Casino games which are streamed in real-time, where real dealers shuffle, deal and interact with Live Casino players.
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/features-split-image-04.jpg')}
+                  alt="Live Casino"
                   width={528}
                   height={396} />
               </div>
